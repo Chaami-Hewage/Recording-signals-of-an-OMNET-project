@@ -1,0 +1,28 @@
+file 1582 1694341987                                            
+version 3
+run General-0-20230910-16:02:27-9316
+attr configname General
+attr datetime 20230910-16:02:27
+attr datetimef 20230910-160227
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network ComputerNetwork
+attr processid 9316
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network ComputerNetwork
+config record-eventlog true
+config sim-time-limit 500s
+
+vector 0 ComputerNetwork totalDelay:vector ETV
+attr recordingmode vector
+attr source delay
+0	616 964 1 26 0 476.548548550346 26 12.835648786277 58.183138202876 1009.3040071568 42222.293156206
+

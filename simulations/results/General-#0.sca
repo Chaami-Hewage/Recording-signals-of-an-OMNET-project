@@ -1,0 +1,29 @@
+version 3
+run General-0-20230910-16:02:27-9316
+attr configname General
+attr datetime 20230910-16:02:27
+attr datetimef 20230910-160227
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network ComputerNetwork
+attr processid 9316
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network ComputerNetwork
+config record-eventlog true
+config sim-time-limit 500s
+
+par ComputerNetwork.computer_A typename "\"_205009e_tute03.Computer\""
+par ComputerNetwork.computer_B typename "\"_205009e_tute03.Computer\""
+par ComputerNetwork typename "\"_205009e_tute03.simulations.ComputerNetwork\""
+scalar ComputerNetwork totalMessagesRecieved:count 26
+attr recordingmode count
+attr source messagesRecieved
+
